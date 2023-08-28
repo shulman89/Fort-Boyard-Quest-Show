@@ -1,0 +1,1 @@
+[{"model": "backend.present", "pk": 9, "fields": {"var": "Торт", "img": "landing/orig_xsWcdvB.jpeg"}}, {"model": "backend.present", "pk": 10, "fields": {"var": "Актер", "img": "landing/present_2_2IupQ6V.jpg"}}, {"model": "backend.present", "pk": 11, "fields": {"var": "Автомобиль", "img": "landing/images_3XVw0OS.jpeg"}}]

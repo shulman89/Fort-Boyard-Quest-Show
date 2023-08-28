@@ -1,0 +1,38 @@
+.slogan-yandex {
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 5% 3% 5%;
+  @media(max-width: 992px) {
+    margin: 8% 5% 8% 5%;
+    font-size: 46px;
+  }
+  @media(max-width: 768px) {
+    font-size: 38px;
+  }
+  @media(max-width: 576px) {
+    font-size: 34px;
+  }
+  @media (max-width: 500px) {
+    font-size: 32px;
+  }
+  @media (max-width: 400px) {
+    font-size: 30px;
+  }
+  @media(max-width: 350px) {
+    font-size: 28px;
+  }
+  @media(max-width: 300px) {
+    font-size: 24px;
+  }
+
+
+  span {
+    color: #FCD977;
+  }
+}
+

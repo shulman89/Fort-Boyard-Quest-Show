@@ -1,0 +1,192 @@
+.body-third-container {
+  max-width: 97%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+  @media (max-width: 992px) {
+    display: none;
+  }
+
+  .slogan_optimistic {
+    font-family: "Gilroy-SemiBold", sans-serif;
+    font-size: 48px;
+    color: white;
+    margin: 5% 3% 4% 3%;
+    text-align: center;
+
+    span {
+      color: #FCD977;
+    }
+  }
+
+  .yellow-cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .yellow-cards-container-half {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+
+      .yellow-card-frame {
+        height: 500px;
+        background-color: #FCD977;
+        width: 43%;
+        overflow: hidden;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        box-shadow: 0 7px 50px -5px rgba(252, 217, 119, 0.7);
+        @media (max-width: 1200px) {
+          height: 450px;
+        }
+
+        .yellow-card {
+          border: 1px solid #d7ba65;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          border-radius: 25px;
+          text-align: center;
+
+          .yellow-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font: italic 30px/1.25 "Gilroy-Black", sans-serif;
+            padding: 5% 5%;
+            @media (max-width: 1200px) {
+              font-size: 26px;
+            }
+          }
+
+          .yellow-text {
+            display: flex;
+            align-items: self-start;
+            justify-content: center;
+            text-align: left;
+            font-family: Gilroy-Medium, sans-serif;
+            font-size: 16px;
+            line-height: 1.25;
+            margin: 5% 7%;
+          }
+
+          .yellow-pic {
+            width: 105%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            margin-bottom: -5%;
+            margin-top: 20%;
+            @media (max-width: 1200px) {
+              width: 107%;
+            }
+
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//-------------------------------режим слайдов--------------------------------
+.slider-yellow-cards-container {
+  width: 100%;
+  display: none;
+  @media (max-width: 992px) {
+    display: contents;
+  }
+
+
+  .slogan_optimistic1 {
+    font-family: "Gilroy-SemiBold", sans-serif;
+    font-size: 46px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 5% 4% 5%;
+  @media(max-width: 768px) {
+    font-size: 38px;
+  }
+  @media(max-width: 576px) {
+    font-size: 34px;
+  }
+  @media (max-width: 500px) {
+    font-size: 32px;
+  }
+  @media (max-width: 400px) {
+    font-size: 30px;
+  }
+  @media(max-width: 350px) {
+    font-size: 28px;
+  }
+  @media(max-width: 300px) {
+    font-size: 24px;
+  }
+
+    .yellow-text {
+      color: #FCD977;
+    }
+  }
+
+  .yellow-card {
+    text-align: center;
+    @media (max-width: 300px) {
+      padding-bottom: 15%;
+    }
+
+    img {
+      border-radius: 25px;
+      box-shadow: 0 7px 50px -5px rgba(252, 217, 119, 0.7);
+      width: 33%;
+      margin: 8%;
+      @media (max-width: 850px) {
+        width: 35%;
+      }
+      @media (max-width: 768px) {
+        width: 45%;
+        margin-bottom: 9%;
+      }
+      @media (max-width: 650px) {
+        width: 48%;
+        margin-bottom: 10%;
+      }
+      @media (max-width: 600px) {
+        width: 50%;
+        margin-bottom: 10%;
+      }
+      @media (max-width: 576px) {
+        width: 51%;
+        margin-bottom: 10%;
+      }
+      @media (max-width: 500px) {
+        width: 55%;
+        margin-bottom: 11%;
+      }
+      @media (max-width: 450px) {
+        width: 60%;
+        margin-bottom: 12%;
+      }
+      @media (max-width: 400px) {
+        width: 65%;
+        margin-bottom: 14%;
+      }
+    }
+  }
+}
+
